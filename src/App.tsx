@@ -1,11 +1,28 @@
+import Preloader from './components/Preloader'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import StatsBar from './components/StatsBar'
+import FeatureSection from './components/FeatureSection'
+import CoursesSection from './components/CoursesSection'
+import WhySection from './components/WhySection'
+import CtaDark from './components/CtaDark'
+import ContactSection from './components/ContactSection'
+import Footer from './components/Footer'
+
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold text-gray-900">React + TS + Tailwind</h1>
-        <p className="mt-2 text-gray-500">Ready to build.</p>
-      </div>
-    </div>
+    <>
+      <Preloader />
+      <Navbar />
+      <Hero />
+      <StatsBar />
+      <FeatureSection />
+      <CoursesSection />
+      <WhySection />
+      <CtaDark />
+      <ContactSection />
+      <Footer />
+    </>
   )
 }
 
