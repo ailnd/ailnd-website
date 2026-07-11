@@ -1,4 +1,3 @@
-import Preloader from './components/Preloader'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import StatsBar from './components/StatsBar'
@@ -12,7 +11,6 @@ import Footer from './components/Footer'
 function App() {
   return (
     <>
-      <Preloader />
       <Navbar />
       <Hero />
       <StatsBar />
