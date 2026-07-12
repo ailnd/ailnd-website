@@ -10,7 +10,6 @@ export default function CtaDark() {
         <p className="sec-desc">
           Join 1000+ learners who are already building skills, earning certifications, and launching their careers with AIL&amp;D.
         </p>
-        <button className="btn-yellow">Start Free Trial ↗</button>
       </div>
       <div className="cta-right">
         <div className="cta-cards">

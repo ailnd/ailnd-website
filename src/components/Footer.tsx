@@ -1,9 +1,11 @@
+import LogoDark from './LogoDark'
+
 export default function Footer() {
   return (
     <footer>
       <div className="footer-top">
         <div className="footer-brand">
-          <div className="nav-logo"><span className="dot"></span>AIL&amp;D</div>
+          <div className="nav-logo"><LogoDark className="nav-logo-svg" /></div>
           <p>Where Learning Meets Innovation. AI-powered courses, real projects, and career-focused mentorship.</p>
           <div className="footer-social">
             <a href="#" title="LinkedIn">in</a>

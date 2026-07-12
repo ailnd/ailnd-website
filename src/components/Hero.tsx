@@ -20,43 +20,29 @@ export default function Hero() {
         <p className="hero-desc">
           Speed up the skill acquisition process by finding unlimited courses that match your niche — from AI to full-stack development.
         </p>
-        <div className="hero-actions">
-          <button className="btn-enroll">Enroll Now <span className="arr">↗</span></button>
-          <button className="btn-browse">Browse Courses</button>
-        </div>
       </div>
 
       <div className="hero-right">
         <div className="vid-grid">
           <div className="vid-card">
-            <div className="vid-avatar" style={{ background: '#FDE8C8' }}>👩‍💻</div>
-            <div className="vid-name">Priya S.</div>
-            <div className="vid-sub">Python</div>
+            <div className="vid-avatar" style={{ background: '#FDE8C8' }}>👨‍🏫</div>
+            <div className="vid-name">Parshad Doshi</div>
+            <div className="vid-sub">20+ yr Corporate Training</div>
           </div>
           <div className="vid-card">
-            <div className="vid-avatar" style={{ background: '#D6EAF8' }}>👨‍🏫</div>
-            <div className="vid-name">Instructor</div>
-            <div className="vid-sub">AI / ML</div>
+            <div className="vid-avatar" style={{ background: '#D6EAF8' }}>👨‍💻</div>
+            <div className="vid-name">Kathak Dabhi</div>
+            <div className="vid-sub">10+ yr Software Dev</div>
           </div>
           <div className="vid-card">
-            <div className="vid-avatar" style={{ background: '#E8F8E8' }}>🧑‍💻</div>
-            <div className="vid-name">Rahul K.</div>
-            <div className="vid-sub">React</div>
+            <div className="vid-avatar" style={{ background: '#E8F8E8' }}>🧑‍💼</div>
+            <div className="vid-name">Shalin Doshi</div>
+            <div className="vid-sub">Associate</div>
           </div>
           <div className="vid-card">
-            <div className="vid-avatar" style={{ background: '#F8E8F8' }}>👩‍🎓</div>
-            <div className="vid-name">Anjali M.</div>
-            <div className="vid-sub">Node.js</div>
-          </div>
-          <div className="vid-card">
-            <div className="vid-avatar" style={{ background: '#FFFDE8' }}>🧑‍🎓</div>
-            <div className="vid-name">Arjun D.</div>
-            <div className="vid-sub">MongoDB</div>
-          </div>
-          <div className="vid-card">
-            <div className="vid-avatar" style={{ background: '#E8F0F8' }}>👨‍💻</div>
-            <div className="vid-name">Vikram S.</div>
-            <div className="vid-sub">GraphQL</div>
+            <div className="vid-avatar" style={{ background: '#F8E8F8' }}>👩‍💼</div>
+            <div className="vid-name">Dhara Patel</div>
+            <div className="vid-sub">Associate</div>
           </div>
         </div>
 

@@ -47,7 +47,6 @@ export default function FeatureSection() {
           <div className="check-item"><span className="chk">✓</span>Industry-aligned curriculum updated quarterly</div>
           <div className="check-item"><span className="chk">✓</span>1-on-1 career guidance and placement support</div>
         </div>
-        <button className="btn-enroll">Learn More <span className="arr">↗</span></button>
       </div>
     </section>
   )

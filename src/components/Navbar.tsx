@@ -1,9 +1,10 @@
+import LogoLight from './LogoLight'
+
 export default function Navbar() {
   return (
     <nav>
       <div className="nav-logo">
-        <span className="dot"></span>
-        AIL&amp;D
+        <LogoLight className="nav-logo-svg" />
       </div>
       <div className="nav-links">
         <a href="#hero">Home</a>
