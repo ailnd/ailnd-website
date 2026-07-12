@@ -12,15 +12,15 @@ export default function ContactSection() {
         <div className="info-items">
           <div className="info-item">
             <span className="icon">📧</span>
-            <div><h4>Email</h4><p>hello@aild.in</p></div>
+            <div><h4>Email</h4><p>support@ailnd.com</p></div>
+          </div>
+          <div className="info-item">
+            <span className="icon">📱</span>
+            <div><h4>Contact</h4><p>8732953547</p><p>7698294508</p><p>9265453903</p></div>
           </div>
           <div className="info-item">
             <span className="icon">📍</span>
             <div><h4>Location</h4><p>India — Remote &amp; On-site</p></div>
-          </div>
-          <div className="info-item">
-            <span className="icon">🕐</span>
-            <div><h4>Response Time</h4><p>Within 24 hours</p></div>
           </div>
         </div>
       </div>
