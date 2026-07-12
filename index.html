@@ -9,6 +9,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   </head>
   <body>
+    <!-- Netlify Forms: static copy required for build-time form detection -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input name="name" />
+      <input name="phone" />
+      <input name="email" />
+      <select name="interest"></select>
+      <textarea name="message"></textarea>
+      <input name="bot-field" />
+    </form>
+
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
